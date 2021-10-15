@@ -26,4 +26,6 @@ function register_styles_plugin(){
 
 add_shortcode('basicplugin', 'plugintest');
 add_action('wp_enqueue_scripts','register_styles_plugin');
+
+hello laura
 ?>
