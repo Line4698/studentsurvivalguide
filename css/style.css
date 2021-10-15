@@ -1,6 +1,8 @@
-body {background-color: aquamarine;}
+#location {
+    font-weight: 400;
+    font-size: 2em;
+}
 
-#mysection{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+#temp #temp-value {
+    font-size: 2em;
 }

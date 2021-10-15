@@ -10,12 +10,15 @@
  */
 
  function plugintest () {
-     $mycode = '<h2>Play</h2>';
-     $mycode .= '<p>Play this game to have some fun with out product</p>';
-     $mycode .= '<section id="game">
-     <script src="https://cdn.htmlgames.com/embed.js?game=SaratogaSolitaire&amp;bgcolor=white"></script>
-     </section>
-     ';
+     $mycode = '<div id="location">
+     <p>Aarhus</p>
+ </div>';
+     $mycode .= '<div id="temp">
+     <p><span id="temp-value">10</span><span id="temp-unit">&#176C</span></p>
+
+     <img id="temp-icon" src="icons/clear.png" alt="weather-icon">
+
+ </div>';
      return $mycode;
  }
 
