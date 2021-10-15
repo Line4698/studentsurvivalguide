@@ -1,3 +1,28 @@
+#app-container {
+    background-color: #28340C;
+    color: #fff;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-radius: 5%;
+    margin-right: 2%;
+    align-items: center;
+    font-weight: bold;
+}
+
+.info p {
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    flex: wrap;
+    padding: 2%;
+
+}
+
 #location {
     font-weight: 400;
     font-size: 2em;

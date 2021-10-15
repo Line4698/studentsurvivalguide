@@ -10,13 +10,18 @@
  */
 
  function plugintest () {
-     $mycode = '<div id="location">
-     <p>Aarhus</p>
- </div>';
-     $mycode .= '<div id="temp">
-     <p><span id="temp-value">10</span><span id="temp-unit">&#176C</span></p>
+     $mycode = '<div id="app-container">
 
-     <img id="temp-icon" src="icons/clear.png" alt="weather-icon">
+     <div id="location">
+         <p>Aarhus</p>
+     </div>
+
+     <div id="temp">
+         <p><span id="temp-value">10</span><span id="temp-unit">&#176C</span></p>
+
+         <img id="temp-icon" src="css/icons/clear.png" alt="weather-icon">
+
+     </div>
 
  </div>';
      return $mycode;
