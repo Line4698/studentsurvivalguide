@@ -23,17 +23,17 @@ window.addEventListener("load", () => {
             loc.textContent = name;
             tempValue.textContent = Math.round(feels_like - 273);
             if (id < 250) {
-                tempIcon.src = './icons/storm.png'
+                tempIcon.src = '.plugins_url("studentsurvivalguide/icons/storm.png").'
             } else if (id < 350) {
-                tempIcon.src = './icons/drizzle.png'
+                tempIcon.src = '.plugins_url("studentsurvivalguide/icons/drizzle.png").'
             } else if (id < 550) {
-                tempIcon.src = './icons/rain.png'
+                tempIcon.src = '.plugins_url("studentsurvivalguide/icons/rain.png").'
             } else if (id < 650) {
-                tempIcon.src = './icons/snow.png'
+                tempIcon.src = '.plugins_url("studentsurvivalguide/icons/snow.png").'
             } else if (id === 800) {
-                tempIcon.src = './icons/clear.png'
+                tempIcon.src = '.plugins_url("studentsurvivalguide/icons/clear.png").'
             } else if (id > 800) {
-                tempIcon.src = './icons/clouds.png'
+                tempIcon.src = '.plugins_url("studentsurvivalguide/icons/cloud.png").'
             }
             console.log(data);
         })

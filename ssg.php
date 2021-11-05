@@ -19,8 +19,8 @@
      <div id="temp">
          <p><span id="temp-value">10</span><span id="temp-unit">&#176C</span></p>
 
-         <img id="temp-icon" src="css/icons/clear.png" alt="weather-icon">
-
+         <img id="temp-icon" src=" '.plugins_url("studentsurvivalguide/icons/clear.png").' " alt="weather-icon">
+         
      </div>
 
  </div>';
@@ -28,8 +28,8 @@
  }
 
  function register_styles_plugin(){
-     wp_enqueue_style('CustomStylesheet', plugins_url ('linerisumplugin/css/style.css'));
-     wp_enqueue_script('CustomScript', plugins_url ('linerisumplugin/js/script.js'),array(),null,true);
+     wp_enqueue_style('CustomStylesheet', plugins_url ('studentsurvivalguide/css/style.css'));
+     wp_enqueue_script('CustomScript', plugins_url ('studentsurvivalguide/js/script.js'),array(),null,true);
  }
  
  add_shortcode('basicplugin', 'plugintest');
