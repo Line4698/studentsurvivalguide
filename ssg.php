@@ -10,21 +10,49 @@
  */
 
  function plugintest () {
-     $mycode = '<div id="app-container">
-
-     <div id="location">
-         <p>Aarhus</p>
-     </div>
-
-     <div id="temp">
-         <p><span id="temp-value">10</span><span id="temp-unit">&#176C</span></p>
-
-         <img id="temp-icon" src=" '.plugins_url("studentsurvivalguide/icons/clear.png").' " alt="weather-icon">
-         
-     </div>
-
- </div>';
-     return $mycode;
+     $content = '<div id="pins">
+            <a href="index.html"><button type="button" id="pin0" class="bounce-in-top">
+                    <span id="pin0tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin1" class="bounce-in-top">
+                    <span id="pin1tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin2" class="bounce-in-top">
+                    <span id="pin2tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin3" class="bounce-in-top">
+                    <span id="pin3tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin4" class="bounce-in-top">
+                    <span id="pin4tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin5" class="bounce-in-top">
+                    <span id="pin5tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin6" class="bounce-in-top">
+                    <span id="pin6tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin7" class="bounce-in-top">
+                    <span id="pin7tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin8" class="bounce-in-top">
+                    <span id="pin8tekst"></span>
+                </button>
+            </a>
+            <a href="index.html"><button type="button" id="pin9" class="bounce-in-top">
+                    <span id="pin9tekst"></span>
+                </button>
+            </a>
+        </div>';
+     return $content;
  }
 
  function register_styles_plugin(){
