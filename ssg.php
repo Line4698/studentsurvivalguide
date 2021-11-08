@@ -11,43 +11,43 @@
 
  function plugintest () {
      $content = '<div id="pins">
-            <a href="index.html"><button type="button" id="pin0" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="aarhus" class="bounce-in-top">
                     <span id="pin0tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin1" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="aalborg" class="bounce-in-top">
                     <span id="pin1tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin2" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="kobenhavn" class="bounce-in-top">
                     <span id="pin2tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin3" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="odense" class="bounce-in-top">
                     <span id="pin3tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin4" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="vejle" class="bounce-in-top">
                     <span id="pin4tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin5" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="roskilde" class="bounce-in-top">
                     <span id="pin5tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin6" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="esbjerg" class="bounce-in-top">
                     <span id="pin6tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin7" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="kolding" class="bounce-in-top">
                     <span id="pin7tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin8" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="sonderborg" class="bounce-in-top">
                     <span id="pin8tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="pin9" class="bounce-in-top">
+            <a href="index.html"><button type="button" id="randers" class="bounce-in-top">
                     <span id="pin9tekst"></span>
                 </button>
             </a>

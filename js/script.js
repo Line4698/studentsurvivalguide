@@ -1,13 +1,13 @@
-const PIN0 = document.getElementById("pin0");
-const PIN1 = document.getElementById("pin1");
-const PIN2 = document.getElementById("pin2");
-const PIN3 = document.getElementById("pin3");
-const PIN4 = document.getElementById("pin4");
-const PIN5 = document.getElementById("pin5");
-const PIN6 = document.getElementById("pin6");
-const PIN7 = document.getElementById("pin7");
-const PIN8 = document.getElementById("pin8");
-const PIN9 = document.getElementById("pin9");
+const PIN0 = document.getElementById("aarhus");
+const PIN1 = document.getElementById("aalborg");
+const PIN2 = document.getElementById("kobenhavn");
+const PIN3 = document.getElementById("odense");
+const PIN4 = document.getElementById("vejle");
+const PIN5 = document.getElementById("roskilde");
+const PIN6 = document.getElementById("esbjerg");
+const PIN7 = document.getElementById("kolding");
+const PIN8 = document.getElementById("sonderborg");
+const PIN9 = document.getElementById("randers");
 
 PIN0.addEventListener("mouseover", function () {
     PIN0.innerHTML = "Aarhus"});

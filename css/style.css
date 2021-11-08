@@ -1,90 +1,248 @@
 
-#pin0 {
-    position: absolute;
-    top: 190px;
-    left: 205px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin1 {
-    position: absolute;
-    top: 45px;
-    left: 173px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin2 {
-    position: absolute;
-    top: 299px;
-    left: 443px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin3 {
-    position: absolute;
-    top: 350px;
-    left: 215px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin4 {
-    position: absolute;
-    top: 293px;
-    left: 130px;
-    padding: 12px 12px;
-    z-index: 99;
-}
-
-#pin5 {
-    position: absolute;
-    top: 310px;
-    left: 382px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin6 {
-    position: absolute;
-    top: 325px;
-    left: 35px;
-    padding: 12px 12px;
-    z-index: 99;
-}
-
-#pin7 {
-    position: absolute;
-    top: 330px;
-    left: 125px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin8 {
-    position: absolute;
-    top: 427px;
-    left: 145px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
-#pin9 {
-    position: absolute;
-    top: 142px;
-    left: 187px;
-    padding: 12px 12px;
-    z-index: 98;
-}
-
 .bounce-in-top{
-    padding: 12px 12px;
     border: none;
     cursor: pointer;
     color: black !important;
     background-color: #F3E35F !important;
     border-radius: 5px;
     display: inline-block;
+    opacity: 0;
 }
+
+#aarhus {
+    position: absolute;
+    top: 260px;
+    left: 140px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+#aalborg {
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+#kobenhavn {
+    position: absolute;
+    top: 325px;
+    left: 300px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+#odense {
+    position: absolute;
+    top: 360px;
+    left: 145px;
+    padding: 10px 10px;
+    z-index: 98;
+}
+
+#vejle {
+    position: absolute;
+    top: 320px;
+    left: 85px;
+    padding: 10px 10px;
+    z-index: 99;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#roskilde {
+    position: absolute;
+    top: 330px;
+    left: 255px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+#esbjerg {
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    padding: 10px 10px;
+    z-index: 99;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+#kolding {
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+}
+
+#sonderborg {
+    position: absolute;
+    top: 415px;
+    left: 95px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#randers {
+    position: absolute;
+    top: 215px;
+    left: 130px;
+    padding: 10px 10px;
+    z-index: 98;
+    animation-name: fadein;
+    animation-duration: 1s; 
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+@media only screen and (min-width: 750px) {
+    #aarhus {
+        top: 125px;
+        left: 145px;
+        padding: 12px 12px;
+    }
+    
+    #aalborg {
+        top: 5px;
+        left: 120px;
+        padding: 12px 12px;
+    }
+    
+    #kobenhavn {
+        top: 190px;
+        left: 315px;
+        padding: 12px 12px;
+    }
+    
+    #odense {
+        top: 230px;
+        left: 155px;
+        padding: 12px 12px;
+    }
+    
+    #vejle {
+        top: 185px;
+        left: 90px;
+        padding: 12px 12px;
+    }
+    
+    #roskilde {
+        position: absolute;
+        top: 195px;
+        left: 270px;
+        padding: 12px 12px;
+        z-index: 98;
+    }
+    
+    #esbjerg {
+        top: 210px;
+        left: 20px;
+        padding: 12px 12px;
+    }
+    
+    #kolding {
+        top: 215px;
+        left: 85px;
+        padding: 12px 12px;
+    }
+    
+    #sonderborg {
+        top: 275px;
+        left: 100px;
+        padding: 12px 12px;
+    }
+    
+    #randers {
+        top: 80px;
+        left: 135px;
+        padding: 12px 12px;
+    }
+  }
+
+  @media only screen and (min-width: 1008px) {
+    #aarhus {
+        top: 200px;
+        left: 205px;
+    }
+    
+    #aalborg {
+        top: 45px;
+        left: 173px;
+    }
+    
+    #kobenhavn {
+        top: 299px;
+        left: 443px;
+    }
+    
+    #odense {
+        top: 350px;
+        left: 215px;
+    }
+    
+    #vejle {
+        top: 293px;
+        left: 130px;
+    }
+    
+    #roskilde {
+        top: 310px;
+        left: 382px;
+    }
+    
+    #esbjerg {
+        top: 325px;
+        left: 35px;
+    }
+    
+    #kolding {
+        top: 330px;
+        left: 125px;
+    }
+    
+    #sonderborg {
+        top: 427px;
+        left: 145px;
+    }
+    
+    #randers {
+        top: 142px;
+        left: 187px;
+    }
+  }
