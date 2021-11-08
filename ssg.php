@@ -1,21 +1,21 @@
 <?php
 /**
  * Plugin name: ssg plugin
- * Description: A nice test plugin by me.
+ * Description: A nice plugin about city guides in SSG.
  * Plugin URI: http://localhost/studentsurvivalguide
  * Version: 1.0
- * Author: Line Risum
+ * Author: Laura, Line, Maja & Marie
  * Author http://localhost/studentsurvivalguide
  * License: GPL2
  */
 
  function plugintest () {
      $content = '<div id="pins">
-            <a href="index.html"><button type="button" id="aarhus" class="bounce-in-top">
+            <a href="https://www.studentsurvivalguide.dk/posts/aarhus-survival-guide"><button type="button" id="aarhus" class="bounce-in-top">
                     <span id="pin0tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="aalborg" class="bounce-in-top">
+            <a href="https://www.studentsurvivalguide.dk/posts/survival-guide-to-aalborg"><button type="button" id="aalborg" class="bounce-in-top">
                     <span id="pin1tekst"></span>
                 </button>
             </a>
@@ -31,7 +31,7 @@
                     <span id="pin4tekst"></span>
                 </button>
             </a>
-            <a href="index.html"><button type="button" id="roskilde" class="bounce-in-top">
+            <a href="https://www.studentsurvivalguide.dk/posts/roskilde-survival-guide"><button type="button" id="roskilde" class="bounce-in-top">
                     <span id="pin5tekst"></span>
                 </button>
             </a>
